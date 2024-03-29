@@ -1,0 +1,58 @@
+.spans{
+    height: 40px;
+    width: 40px;
+    background-color: lightgrey;
+    position: relative;
+   
+}
+.input-group-addon{
+   position: relative;
+   left: 1px;
+   top: 7px;
+}
+.spans-one{
+    background-color: lightgrey;
+}
+.one{
+   padding: 5px;
+}
+.spans-two{
+    background-color: lightgrey;
+}
+.two{
+    padding: 5px;
+}
+.spans-three{
+    background-color: lightgrey;
+}
+.three{
+    padding: 5px;
+}
+
+h5{
+    padding: 5px;
+    font-size: 40px;
+}
+#results{
+    border-top: 2px solid lightgray;
+}
+.card{
+    border-radius: 20px;
+}
+
+#amount:focus{
+   background: lightgrey;
+}
+#interest:focus{
+    background: lightgrey;
+}
+#years:focus{
+    background: lightgrey;
+}
+
+
+
+/* show none */
+#loading, #results{
+    display: none;
+}
