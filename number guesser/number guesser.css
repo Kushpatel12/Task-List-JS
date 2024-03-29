@@ -1,0 +1,87 @@
+body{
+    background: lightgreen;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+    height: 320px;
+    width: 500px;
+    background: burlywood;
+    border-radius: 10px;
+}
+
+.play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color:maroon;
+    font-family:  cursive,monospace;
+}
+.num{
+    position: relative;
+    top: -10px;
+    font-family: cursive;
+    border-bottom: 2px solid grey;
+}
+
+.first{
+    position: relative;
+    top: -20px;
+    left: -30px;
+    font-size: 20px;
+    font-family: monospace;
+    color: slateblue;
+}
+.img{
+    position: relative;
+    top: 30px;
+}
+.min-mum{
+    font-size: 30px;
+    font-family: cursive;
+    color: magenta;
+}
+.max-mum{
+    font-size: 30px;
+    font-family: cursive;
+    color: magenta;
+}
+.input{
+    position: relative;
+    left: 60px;
+    top: -20px;
+}
+#guess-submit{
+    border-radius: 20px;
+    border-color: lightgreen;
+}
+#guess-submit:hover{
+    background-color: lightgreen;
+}
+#guess-input{
+    border-radius: 20px;
+    text-align: center;
+}
+.message{
+    position: relative;
+    left: 40px;
+    top: -30px;
+    font-size: 20px;
+}
+.message-two{
+    position: relative;
+    left: 10px;
+    top: -30px;
+    font-size: 23px;
+}
+.message-three{
+    position: relative;
+    left: 50px;
+    top: -30px;
+    font-size: 23px;
+}
